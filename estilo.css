@@ -1,0 +1,45 @@
+body{
+    background: rgb(59, 59, 245);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+.txt{
+    display: block;
+    width: 240px;
+    text-align: right;
+    padding: 10px;
+}
+.passo{
+margin-left: 20px;
+}
+.contar{
+    padding: 6px;
+    width: 80px;
+    
+}
+#passo{
+    top: 10px;
+}
+
+#resultado{
+ padding-top: 20px;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

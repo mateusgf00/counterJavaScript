@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CursoemVideo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div class="txt">      
+            <p>Inicio:<input type="number" name="txtNumIni" id="txtNumIni" class="break"></p>
+            <p>Fim:<input type="number" name="txtNumFim" id="txtNumFim" class="break"></p>
+            <p>Passo:<input type="number" name="txtPasso" id="txtPasso"></p>
+        </div>
+        <div class="passo">
+            <input type="button" value="Contar" onclick="carregar()" class="contar">
+        </div>
+        <div class="passo" id="resultado" >
+            Preparando contagem...
+        </div>
+    </section>
+    <Footer>
+        <p>&copy; CursoemVideo</p>
+    </Footer>
+    <script src= "script.js"></script>
+</body>
+</html>
